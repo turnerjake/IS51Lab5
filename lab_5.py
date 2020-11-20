@@ -1,16 +1,22 @@
 """
 Lab 5
 
-Program to translate regular user english into texting shorthand
-Open textese.txt
-Read from the text file and create a list of all translation
-Create a python dictionary of key:value pairs from the list
-Close the file
+main():
+    sentence = user input
+    dictionary = create_dictionary()
+    translate(sentence, dictionary)
 
-Take user input in
-Split user input into an array of strings
+translate(sentence, dictionary):
+    words = array of words in user sentence
+    for each word get value from dictionary
+    print translate
 
-Loop through array of strings, find a matching key in our dictionary and return the value
+create_dictionary(infile):
+    open textese.txt
+    reach each line from file
+    close textese.txt
+    create dictionary from lines in file
+    return dictionary
 
-Print the translated sentence
+main()
 """
